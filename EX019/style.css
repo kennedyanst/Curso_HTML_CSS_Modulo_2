@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*
+    em HTML é id = em CSS é #
+    em HTML é class = em CSS é .
+
+    Uma classe tb faz a confg personalizada de um elemento mas pode ser multiplo, diferente do id que é unico.
+*/
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color:aquamarine;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+#principal {
+    text-align: center;
+    background-color: green;
+    color: #fff;
+
+}
+
+.basico {
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+
+.intermediario{
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+
+.avançado{
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.destaque{
+    font-weight: bold;
+    background-color: blueviolet;
+}
+
+h2 {
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}

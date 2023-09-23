@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #74cdf7;
+            margin: 0px;
+        }
+        
+        header{
+            background-color: #08f1de;
+            color: #0f4c75;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 2px #0d4657;
+        }
+
+        h1{
+            box-shadow: inset 2px 1px 14px 16px #0000002f;
+        }
+
+        nav{
+            background-color: #bad4d2;
+            color: #e4ebf0;
+            padding: 30px;
+            margin: 30px;
+            text-align: center;          
+            box-shadow: 2px 2px 2px #0d4657;
+        }
+
+        nav > a {
+            background-color: #000;
+            color: #e4ebf0;
+            padding: 30px;
+            margin-right: 60px;
+            text-decoration: none;
+            box-shadow: 2px 2px 2px #0d4e57;
+        }
+
+        nav > a:hover{
+            background-color: #0f4c75;
+            color: #e4ebf0;
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: #000;
+            color: #0f4c75;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 2px 2px 2px rgba(231, 10, 10, 0.5);
+        }
+
+        section#assunto{
+            background-color: #bad4d2;
+            color: #e4ebf0;
+            padding: 30px;
+            margin: 30px;
+            text-align: center;          
+            box-shadow: 2px 2px 2px #0d4657;
+
+        }
+
+        section#assunto > p{
+            background-color: #0f4c75;
+            color: #0a0b0c;
+            padding: 3px;
+            margin: 3px;
+            text-align: center;          
+            box-shadow: 2px 2px 2px #0d4657;
+        }
+
+        article{
+            background-color: azure;
+        }
+
+        article > aside{
+            background-color: #0f4c75;
+            color: #e4ebf0;
+            padding: 1px;
+            margin: 1px;
+            text-align: center;
+        }
+
+        article > h2{
+            background-color: #0d9129;
+            color: #073321;
+            padding: 1px;
+            margin: 1px;
+        }
+
+        footer{
+            background-color: #000;
+            color: #e4ebf0;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        div.bola{
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            background-color: #d646f3;
+            border-radius: 50%;;
+            box-shadow: 2px 2px 2px #0d4657;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Esportes,politica e tec</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod natus eaque vitae amet perferendis ab ipsum, minima iure dolore possimus repellendus quidem cumque odit. Officia quo magni ex distinctio?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Artigo 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sit fuga quisquam, amet sed, cumque neque necessitatibus nostrum consequatur cum sint adipisci nihil dolorem quidem numquam voluptatem animi suscipit provident.</p>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Kennedy</p>
+    </footer>
+    <div class="bola">
+        <p>BOLA</p>
+    </div>
+</body>
+</html>

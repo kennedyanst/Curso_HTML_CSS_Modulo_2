@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        body{
+            background-color: rgba(14, 31, 24, 0.993);
+        }
+
+        h1{
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+            height: 100px;
+            width: 1000px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: aqua;
+            padding: 10px;
+            margin-top: 10px;
+            margin-right: auto;
+            margin-bottom: 10px;
+            margin-left: auto;
+            /*margin: auto; deixa a caixa no meio*/ 
+            outline-width: 10px;
+            outline-color: brown;
+            outline-style: dashed;
+        }
+
+        h2{
+            display: inline-block;
+            text-align: center;
+            background-color: #000;
+            color: #fff;
+            height: 200px;
+            width: 200px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: aqua;
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+            
+        }
+
+        div {
+            display: inline-block;
+            background-color: antiquewhite;
+            border: 1px solid black;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplos de caixa box-level</h1>
+    <div>
+        <h2 id="1">SUB 1</h2>
+    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus minus quaerat, a quae molestias ipsa dolor atque eum aliquam earum libero aut cumque consequatur molestiae quas. Rem tempore ratione facere.</p></div>
+    <div>
+        <h2 id="2">SUB 2</h2>
+    
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex rerum nam pariatur deleniti neque expedita nobis odio quos, ipsa exercitationem quod. Similique eveniet cum perferendis totam nihil at voluptatum rem.</p></div>
+    <div>
+        <h2 id="3">SUB 3</h2>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit distinctio autem vero, molestias itaque nobis esse dolorum accusamus fugiat eligendi aliquam at suscipit a enim, ex libero pariatur repudiandae! Officiis.</p></div>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#"> links são exemplos de caixas inline-leves</a></p>
+</body>
+</html>

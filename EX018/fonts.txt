@@ -1,0 +1,9 @@
+Extensão no chrome: 
+Identificar fontes em sites:
+- fonts-ninja
+
+Sites:
+Identificr fontes em imagens
+- whatfontis.com
+- fontsquirrel.com
+- myfonts.com
